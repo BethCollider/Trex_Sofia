@@ -142,7 +142,7 @@ if (GS === PLAY) {
       suelo.x = suelo.width / 2
     }
     //Mover aqui salto de trex
-    if( touches.length>0||keyDown("space")&& trex.y>= height-100){
+    if( (touches.length>0||keyDown("space"))&& trex.y>= height-100){
       //Establecer velocidad de salto
       trex.velocityY = -10;
       //Incluir efecto de sonido .play();
